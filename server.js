@@ -8,18 +8,18 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
-var server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-var server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
+const server_port = process.env.PORT || 3000;
+app.listen(server_port, function() {
     console.log('Listening on port %d', server_port);
 });
 //var favicon = require('serve-favicon');
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.use(express.static('public'));
-app.get('/', function(req, res){
-  res.render('index.html');
-});
+app.get('/', (request, res) => {
+  res.send('Conneccteedd!!')
+  }
+)
  app.post('/api', (req, res) => {
     res.render('api.html');
     const userId = req.body.userId;
