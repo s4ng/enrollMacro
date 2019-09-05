@@ -2,16 +2,14 @@ var express = require('express');
 var app = express();
 var router = require('./router/main')(app);
 let macro = require('./start');
-const PORT = process.env.PORT;
 
 app.use(express.urlencoded());
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
-var server = app.listen(PORT, function(){
-    console.log("Express server has started on port 3000")
-});
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, '0.0.0.0');
 app.use(express.static('public'));
 
  app.post('/api', (req, res) => {

@@ -12,10 +12,5 @@
     "start": "node server.js",
     "macro" : "node macro.js"
 
-  },
-  "engines":{
-    "node":"v10.15.3",
-    "yarn":"1.15.2",
-    "npm":"6.4.1"
   }
 }
