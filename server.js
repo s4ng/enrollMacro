@@ -15,7 +15,9 @@ app.listen(server_port, server_host, function() {
 });
 
 app.use(express.static('public'));
-
+app.get('/', function(req, res){
+  res.render('index.html');
+});
  app.post('/api', (req, res) => {
     res.render('api.html');
     const userId = req.body.userId;
