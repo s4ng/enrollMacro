@@ -1,0 +1,50 @@
+body{
+    background-color: #222222;
+    color : white;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    width:50%;
+    height:100%;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 50px;
+}
+.side{
+    display:flex;
+    flex-direction: column;
+    border:0.5px none black;
+    height:100%;
+    width:50%;
+}
+.titleText{
+    display:flex;
+    justify-content: center;
+    margin:20px; 
+}
+.form-input, .login-input, .enroll-input{
+    display:flex;
+    justify-content: center;
+    margin:3px;
+}
+.form-input{
+    margin-top:30px;
+}
+.top{
+    margin-top:100px;
+}
+.start-button{
+    justify-content: center;
+    margin : 20px;
+    width:30%;
+    height:40px;
+    background-color: #F8E5D0;
+    border:none;
+}
+.start-button:hover{
+    background-color: #ffffff;
+}
+.start-button:active{
+    background-color: #ecb981;
+}
