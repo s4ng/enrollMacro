@@ -1,1 +1,1 @@
-web : node server.js $PORT
+web : yarn start
