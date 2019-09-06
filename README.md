@@ -2,4 +2,4 @@
 
 대진대학교 수강신청 매크로
 
-nodejs, yarn, express, puppeteer, heroku 사용했음.
+nodejs, yarn, express, puppeteer, heroku
