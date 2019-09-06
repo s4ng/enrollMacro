@@ -11,6 +11,9 @@
   "scripts": {
     "start": "node server.js",
     "macro" : "node macro.js"
-
+  },
+  "engines": {
+    "node": "^10.15",
+    "yarn": "^1.15"
   }
 }
