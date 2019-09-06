@@ -15,7 +15,7 @@ app.listen(server_port, function() {
 //var favicon = require('serve-favicon');
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
-app.use(express.static('public'));
+app.use(express.static(__dirname+'public'));
 app.get('/', (request, res) => {
   res.send('Conneccteedd!!')
   }
