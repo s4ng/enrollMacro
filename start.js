@@ -3,7 +3,6 @@ const puppeteer = require("puppeteer");
 // puppeteer.executablePath()는 설치한 puppeteer 노드모듈의 번들로 제공되는 chromium 브라우저의 경로의 주소값을 가진다.
 // 해당 예제는 puppeteer.launch를 통해 퍼펫티어를 실행할때 해당 경로의 값을 지정한다.
 console.log(puppeteer.executablePath());
-
 /* 테스트 데이타
 const userId = "20172465";
 const userPw = "tkdrms2tlqkf?!";
