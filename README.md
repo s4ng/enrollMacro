@@ -4,7 +4,11 @@
 
 ## Using tech
 
-nodejs, yarn, express, puppeteer, heroku
+- nodejs
+- yarn
+- express
+- puppeteer
+- heroku
 
 ## 주소
 
