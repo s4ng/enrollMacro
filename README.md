@@ -5,7 +5,6 @@
 ## Using tech
 
 - nodejs
-- yarn
 - express
 - puppeteer
 - heroku
