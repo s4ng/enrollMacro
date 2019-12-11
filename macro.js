@@ -6,7 +6,7 @@ console.log(puppeteer.executablePath());
 
 
 const userId = "20172465";
-const userPw = "tkdrms2tlqkf?!";
+const userPw = "";
 
 let enroll = {
     "927287" : "01",
