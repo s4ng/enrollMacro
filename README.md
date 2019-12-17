@@ -4,7 +4,7 @@
 
 ## Using tech
 
-- nodejs
+- Node.js
 - express
 - puppeteer
 - heroku
