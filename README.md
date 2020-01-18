@@ -2,14 +2,14 @@
 
 ## 대진대학교 수강신청 매크로
 
-* Using tech
+* ### Using tech
 
   - Node.js
   - express
   - puppeteer
   - heroku
 
-* 주소
+* ### 주소
 
   - https://warm-bastion-12968.herokuapp.com/
 
